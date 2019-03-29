@@ -146,3 +146,7 @@ We use the cancel.then() method to handle the cancellation and resource cleanup.
 2. Remember to perform cleanup when you reject for cancellations.
 3. Remember that the onCancel cleanup might itself throw an error, and that error will need handling, too. (Note that error      handling is omitted in the wait example above — it’s easy to forget!)
 
+
+## Source
+This information is taken from the blog post [Master the JavaScript Interview](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261) by  Eric Elliot
+
